@@ -1,0 +1,94 @@
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+  background-color: #9A9C9B; 
+  border-radius: 0px;
+  /* max-width: 100%; */
+  
+  
+}
+
+.navlist {
+  float: right;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+li a:hover {
+  background-color: #888787;
+}
+img {
+  border-radius: 10%;
+  
+}
+.content {
+  
+  /* background-image:  url("main1.jpg"); */
+  background-color: #9A9C9B;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+
+}
+.active {
+  background-color: #6e6c6d ;
+}
+
+.info {
+margin-top: 15%;
+margin-left: 20%;
+margin-right: 20%;
+text-align: center;
+}
+
+.fontstyle {
+	border-top: 2px solid #414142;  
+border-bottom: 2px solid #414142;  
+border-left: 2px solid #414142;  
+border-right: 2px solid #414142; 
+border: 2px solid #414142;  
+padding: 5px; 
+background-color:#5c5b59; 
+font-size: 20px;
+font-style: italic;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {box-sizing: border-box}
+
+.skillcontainer {
+  width: 60%;
+  background-color: #ddd;
+  text-align: center;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.skilhtml {width: 90%; background-color: #b4eb34;}
+.skilcss {width: 80%; background-color: #174469;}
+.skiljs {width: 65%; background-color: #7a0867;}
+.skilphp {width: 60%; background-color: #068877;}
+.skilml {width: 60%; background-color: #810808;}
+
+
+
+
+
+
