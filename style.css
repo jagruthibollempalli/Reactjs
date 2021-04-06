@@ -15,7 +15,25 @@
   float: right;
   
 }
-
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color:rgb(1, 8, 10);
+  color: white;
+  bottom: 0cm;
+}
+.footer {
+  /*position:fixed;*/
+   left: 0;
+   bottom: 0cm;
+   height: 30px;
+   width: 95%;
+   /*background-image: url("image11.jpg");*/
+   /*background-color: #f098dd;*/
+   color: Black;
+   text-align: right;
+   /*padding-top: 20px;*/
+}
 li a {
   display: block;
   color: white;
