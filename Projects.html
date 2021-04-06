@@ -1,16 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+* {
+  box-sizing:border-box;
+}
 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+ 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px;
+  color: white;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+</style>
 </head>
-<body class = "content">
-<div>
-<ul class="nav">
-  <li class = "navlist"><a href="Contact.html">Contact Details</a></li>
-  <li class = "navlist"><a class = "active" href="Projects.html">Projects</a></li>
-  <li class = "navlist"><a href="Qualifications.html">Qualifications</a></li>
-  <li class = "navlist"><a href="About.html">About</a></li>
-  <li class = "navlist"><a href="Home.html">HOME</a></li>
+<body class="content">
+  <div>
+    <ul class="nav">
+      <li class = "navlist"><a href="Contact.html">Contact Details</a></li>
+      <li class = "navlist"><a class = "active" href="Projects.html">Projects</a></li>
+      <li class = "navlist"><a href="Qualifications.html">Qualifications</a></li>
+      <li class = "navlist"><a href="About.html">About</a></li>
+      <li class = "navlist"><a href="Home.html">HOME</a></li>
+    
+    </ul>
+    </div>
+<div style="text-align:center;color: beige;">
+  <h1>Work I have done till now</h1>
+</div>
 
-</ul>
+<!-- The App Section -->
+<div class="container" style="">
+  <div class="row">
+    <div class="column-66">
+      <h5 class="xlarge-font"><b>Singer with highest collection from 1960's</b></h5>
+      <h5 class="large-font" style="color:MediumSeaGreen;"><b>Data analysis</b></h5>
+      <p style="color: beige;"><span style="font-size:36px;color: aqua;"></span> The project gives the clear idea about the analysis of the data with raw data taken from different platforms. It is completely working on data scraping and the data analysis </p>
+      <button class="button">More Info</button>
+    </div>
+    <div class="column-33">
+        <img src="download.jpg" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="download1.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h5 class="xlarge-font" style="color:black;"><b>Finding Donors in the city</b></h5>
+      <h5 class="large-font" style="color:rgb(14, 13, 13);"><b>Income of the person</b></h5>
+      <p><span style="font-size:24px"></span> Finding the donors from the people in the city so that the work load on the foundtaions employees will decrease.</p>
+      <button class="button" style="background-color:rgb(14, 13, 13)">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- The App Section -->
+<!-- <div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>The App</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Why buy it?</b></h1>
+      <p><span style="font-size:36px">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <button class="button">Download Application</button>
+    </div>
+    <div class="column-33">
+        <img src="/w3images/img_app.jpg" width="335" height="471" >
+    </div>
+  </div>
+</div> -->
+
+</body>
+</html>

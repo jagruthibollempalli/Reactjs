@@ -1,16 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
 
 </head>
-<body class = "content">
-<div>
-<ul class="nav">
-  <li class = "navlist"><a class = "active" href="Contact.html">Contact Details</a></li>
-  <li class = "navlist"><a href="Projects.html">Projects</a></li>
-  <li class = "navlist"><a href="Qualifications.html">Qualifications</a></li>
-  <li class = "navlist"><a href="About.html">About</a></li>
-  <li class = "navlist"><a href="Home.html">HOME</a></li>
 
-</ul>
+<body class="content">
+
+  <div>
+    <ul class="nav">
+      <li class="navlist"><a class="active" href="Contact.html">Contact Details</a></li>
+      <li class="navlist"><a href="Projects.html">Projects</a></li>
+      <li class="navlist"><a href="Qualifications.html">Qualifications</a></li>
+      <li class="navlist"><a href="About.html">About</a></li>
+      <li class="navlist"><a href="Home.html">HOME</a></li>
+
+    </ul>
+    
+
+      <div style="text-align: center;background-color: rgb(1, 8, 10);">
+        <div style="color: aqua;">
+
+          <h3 style="text-decoration: solid;">Contact</h3>
+          <h1>I'd Love To Hear From You.</h1>
+
+
+        </div>
+      </div> <!-- /section-intro -->
+
+      <div style="text-align: center;border: 0px;">
+
+        <div style="background-color:rgb(1, 8, 10);">
+
+          <!-- form -->
+          <form name="contactForm" id="contactForm" method="post" action="">
+            <fieldset style="border: 0cm;">
+
+              <div>
+                <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2"
+                  required="">
+              </div>
+              <div>
+                <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+              </div>
+              <div>
+                <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+              </div>
+              <div>
+                <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50"
+                  required=""></textarea>
+              </div>
+              
+              <div>
+                <button class="submitform" style="width: 40%;background-color: blueviolet;padding: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bolder;font-size: 20px;">Submit</button>
+              </div>
+
+            </fieldset>
+          </form> <!-- Form End -->
+
+        </div> <!-- /col-twelve -->
+
+      </div> <!-- /contact-form -->

@@ -4,7 +4,7 @@
   padding: 0;
   overflow: hidden;
   text-align: right;
-  background-color: #9A9C9B; 
+  background-color:rgb(1, 8, 10); 
   border-radius: 0px;
   /* max-width: 100%; */
   
@@ -35,8 +35,8 @@ img {
 }
 .content {
   
-  /* background-image:  url("main1.jpg"); */
-  background-color: #9A9C9B;
+  /* background-image:  url("img.jpg");  */
+  background-color: rgb(1, 8, 10);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover
