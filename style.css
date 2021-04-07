@@ -1,6 +1,6 @@
 .nav {
   list-style-type: none;
-  margin: 0;
+  margin: 0px;
   padding: 0;
   overflow: hidden;
   text-align: right;
@@ -16,24 +16,13 @@
   
 }
 footer {
-  text-align: center;
-  padding: 3px;
+  text-align: left;
+  padding: 0px;
   background-color:rgb(1, 8, 10);
   color: white;
   bottom: 0cm;
 }
-.footer {
-  /*position:fixed;*/
-   left: 0;
-   bottom: 0cm;
-   height: 30px;
-   width: 95%;
-   /*background-image: url("image11.jpg");*/
-   /*background-color: #f098dd;*/
-   color: Black;
-   text-align: right;
-   /*padding-top: 20px;*/
-}
+
 li a {
   display: block;
   color: white;
@@ -45,7 +34,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #888787;
+  background-color:rgb(6, 29, 36);
 }
 img {
   border-radius: 10%;
@@ -61,7 +50,7 @@ img {
 
 }
 .active {
-  background-color: #6e6c6d ;
+  background-color: rgb(3, 16, 20) ;
 }
 
 .info {
@@ -109,4 +98,54 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 
+ /* Style the Sticky icons on web page */ 
+ .stickyicon-list { 
+  position: fixed; 
+  bottom: 0px; 
+  transform: translateY(-50%); 
+  text-align: center;
+  padding: 5px;
+  background-color:rgb(1, 8, 10);
+  color: white;
 
+  
+  }          
+     
+  .stickyicon-list a { 
+  display: block; 
+  text-align: center; 
+  padding: 8px; 
+  transition: all 0.5s ease; 
+  color: white; 
+  font-size: 20px; 
+  }       
+  /* HOver affect on sticky social media icons */ 
+  .stickyicon-list a:hover { 
+  color: #000; 
+   
+  } 
+   
+  /* Now we have to design each icon of social media */       
+  .facebook { 
+  /* background: #3b5998;  */
+  color: white;
+  }       
+  .twitter { 
+  color: white; 
+  /* background: #00acee;  */
+  } 
+  .linkedin { 
+  /* background: #0e76a8;  */
+  color: white; 
+  }       
+  
+  .instagram { 
+  /* background: #3f729b;  */
+  color: white; 
+  }       
+  .github { 
+  color: white; 
+  /* background: #c4302b;   */
+  } 
+
+  

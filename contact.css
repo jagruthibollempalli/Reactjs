@@ -6,21 +6,74 @@ input,textarea {
     transition: 0.4s ease all;
     width: 40%;
     background-color: black;
+    color: white;
   }
   
   input:focus{
       outline: none;
-      border-bottom: 2px solid yellow;
+      border-bottom: 2px solid rgb(110, 142, 145);
   }
   
   input:hover {
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid rgb(110, 142, 145);
   }
   textarea:focus{
       outline: none;
-      border-bottom: 2px solid yellow;
+      border-bottom: 2px solid rgb(110, 142, 145);
   }
   
   textarea:hover {
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid rgb(110, 142, 145);
   }
+
+  /* Style the Sticky icons on web page */ 
+.stickyicon-list { 
+  position: fixed; 
+  bottom: 0px; 
+  transform: translateY(-50%); 
+  text-align: center;
+  padding: 5px;
+  background-color:rgb(1, 8, 10);
+  color: white;
+
+  
+  }          
+     
+  .stickyicon-list a { 
+  display: block; 
+  text-align: center; 
+  padding: 8px; 
+  transition: all 0.5s ease; 
+  color: white; 
+  font-size: 20px; 
+  }       
+  /* HOver affect on sticky social media icons */ 
+  .stickyicon-list a:hover { 
+  color: #000; 
+   
+  } 
+   
+  /* Now we have to design each icon of social media */       
+  .facebook { 
+  /* background: #3b5998;  */
+  color: white;
+  }       
+  .twitter { 
+  color: white; 
+  /* background: #00acee;  */
+  } 
+  .linkedin { 
+  /* background: #0e76a8;  */
+  color: white; 
+  }       
+  
+  .instagram { 
+  /* background: #3f729b;  */
+  color: white; 
+  }       
+  .github { 
+  color: white; 
+  /* background: #c4302b;   */
+  } 
+
+  
