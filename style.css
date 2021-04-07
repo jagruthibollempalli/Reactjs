@@ -61,15 +61,18 @@ text-align: center;
 }
 
 .fontstyle {
+  text-align: center;
+  margin-left: 24%;
 	border-top: 2px solid #414142;  
 border-bottom: 2px solid #414142;  
 border-left: 2px solid #414142;  
 border-right: 2px solid #414142; 
 border: 2px solid #414142;  
 padding: 5px; 
-background-color:#5c5b59; 
+background-color:#628a84; 
 font-size: 20px;
 font-style: italic;
+width: 50%;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
