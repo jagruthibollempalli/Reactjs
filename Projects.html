@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
     * {
       box-sizing: border-box;
@@ -15,8 +20,9 @@
       font-family: Arial, Helvetica, sans-serif;
     }
 
-    .container {
+    .conta {
       padding: 0px;
+      width: 100%;
 
     }
 
@@ -80,26 +86,47 @@
 </head>
 
 <body class="content">
-  <div>
-    <ul class="nav">
-      <li class="navlist"><a href="Contact.html">Contact Details</a></li>
-      <li class="navlist"><a class="active" href="Projects.html">Projects</a></li>
-      <li class="navlist"><a href="Qualifications.html">Qualifications</a></li>
-      <li class="navlist"><a href="About.html">About</a></li>
-      <li class="navlist"><a href="Home.html">HOME</a></li>
+  <nav class="navbar navbar-expand-lg navbar-custom" style="font-size: 30px;font-weight: lighter;">
+   
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <span class="navbar-toggler-icon"></span> -->
+      <span class="line"></span> 
+      <span class="line"></span> 
+      <span class="line"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link lia" href="Home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link lia" href="About.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link lia" href="Qualifications.html">Qualification</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link lia" href="Projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link lia" href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    </ul>
-  </div>
   <div style="text-align:center;color: beige;">
     <h1 style="text-align:center;color:white;font-weight: bold;text-align: left;margin:2px;padding-left: 15px;padding-bottom: 15px;">Projects</h1>
    </div>
 
   <!-- The App Section -->
-  <div class="container" style="background-color: rgb(2, 44, 56);">
+  <div class="conta" style="background-color: rgb(2, 44, 56);">
     <div class="row">
       <div class="column-66">
         <h6 class="xlarge-font" style="margin: 0;padding: 0;font-weight: normal;"><b></b>Singer with highest collection from 1960's</b></h6>
-        <h5 class="large-font" style="color:rgb(133, 217, 231);margin: 0;padding: 0;font-weight: normal;"><b>Data analysis / Major project / 2 month</b></h5>
+        <h5 class="large-font" style="color:rgb(133, 217, 231);margin: 0;padding: 0;font-weight: normal;">Data analysis / Major project / 2 month</h5>
         <p style="color: white;"><span style="font-size:36px;color: aqua;"></span> The project gives the clear idea
           about the analysis of the data with raw data taken from different platforms. It is completely working on data
           scraping and the data analysis </p>
@@ -112,14 +139,14 @@
   </div>
 
   <!-- Clarity Section -->
-  <div class="container" style="background-color:rgb(6, 29, 36)">
+  <div class="conta" style="background-color:rgb(6, 29, 36)">
     <div class="row">
       <div class="column-33">
         <img src="download1.jpg" alt="App" width="335" height="471">
       </div>
       <div class="column-66">
-        <h5 class="xlarge-font" style="color:white;margin: 0;padding: 0;font-weight: normal;"><b>Finding Donors in the city</b></h5>
-        <h5 class="large-font" style="color:rgb(133, 217, 231);margin: 0;padding: 0;font-weight: normal;"><b>Machine learning / minor project / 1 month</b></h5>
+        <h6 class="xlarge-font" style="color:white;margin: 0;padding: 0;font-weight: normal;">Finding Donors in the city</h6>
+        <h5 class="large-font" style="color:rgb(133, 217, 231);margin: 0;padding: 0;font-weight: normal;">Machine learning / minor project / 1 month</h5>
         <p style="color: white;"><span style="font-size:24px;color: white;"></span> Finding the donors from the people in the city so that the work load on
           the foundtaions employees will decrease.</p>
         <button class="button" style="background-color:rgb(2, 44, 56)">Read More</button>
@@ -128,11 +155,11 @@
   </div>
 
   <!-- The App Section -->
-  <div class="container" style="background-color: rgb(2, 44, 56);">
+  <div class="conta" style="background-color: rgb(2, 44, 56);">
   <div class="row">
     <div class="column-66">
-      <h1 class="xlarge-font" style="margin: 0;padding: 0;font-weight: normal;"><b>Scanning Virus from Phone</b></h1>
-      <h1 class="large-font" style="color:rgb(133, 217, 231);margin:0;padding: 0;font-weight: normal;"><b>Android Application / minor project / 1 month</b></h1>
+      <h6 class="xlarge-font" style="margin: 0;padding: 0;font-weight: normal;">Scanning Virus from Phone</h6>
+      <h5 class="large-font" style="color:rgb(133, 217, 231);margin:0;padding: 0;font-weight: normal;">Android Application / minor project / 1 month</h5>
       <p style="color: white;"><span style="font-size:36px;color: aqua;"></span> The Application helps to scan the phone for malare detection and removes the malware from phone.</p>
       <button class="button" style="background-color: rgb(21, 102, 124);color: white;">Read More</button>
     </div>
