@@ -1,9 +1,7 @@
 pipeline {
      agent any
      stages {
-        stage("Build") {
-           echo "build"
-        }
+        
         stage("Deploy") {
             steps {
                 sh "sudo rm -rf /var/www/jenkins-react-app"
